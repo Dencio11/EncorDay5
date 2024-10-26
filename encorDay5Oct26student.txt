@@ -413,8 +413,8 @@ config t
     mpls label protocol ldp
     !mpls mtu override 1512
   int Ethernet1/2
-    ____ __
-    ____   ____  ________  ___
+    mpls ip
+    mpls label protocol ldp
     !mpls mtu override 1512
 ****
 R1-1:PEz
@@ -422,8 +422,8 @@ config t
  ip cef
  mpls ip
   int Ethernet1/0
-    ____ __
-    ____   ____  ________  ___
+    mpls ip
+    mpls label protocol ldp
     !mpls mtu override 1512
 
 How to check:
